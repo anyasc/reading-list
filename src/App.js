@@ -20,7 +20,7 @@ function App() {
     };
 
     const deleteBook = id => {
-        setBooks((prevState) => prevState.filter(book => book.id != id))
+        setBooks((prevState) => prevState.filter(book => book.id !== id))
     }
 
     return (
